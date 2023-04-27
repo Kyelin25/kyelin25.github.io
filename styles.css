@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(238,174,202);
+    background: linear-gradient(101deg, rgba(238,174,202,1) -50%, rgba(148,187,233,1) 150%);
+    color: #e8e8e8;
+    font-family: 'Cormorant', serif;
+    font-size: 1.2em;
+    overflow-y: clip;
+  }
+
+.quote-container {
+    border-radius: 10px;
+    background-color: #00000030;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+  
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+#bottom-right{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 30%;
+    height: 30%;
+    background-image: url("heart.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transform: rotate(-45deg);
+}
+
+#top-left{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 30%;
+    height: 30%;
+    background-image: url("heart.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transform: rotate(135deg);
+}
+
+.attribution {
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.attribution:before {
+    content: "--";
+}
